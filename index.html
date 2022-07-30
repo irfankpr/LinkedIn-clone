@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="LinkedIn.css" />
+    <link rel="icon" type="image/x-icon" href="https://s.yimg.com/fz/api/res/1.2/oPmnuoHGZwDmud64pDGAcQ--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI0MDtxPTgwO3c9MjQw/https://s.yimg.com/zb/imgv1/051c505f-dc29-3303-81b2-5828c6e3b2e2/t_500x300">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,300,0,200"
+      />
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+      />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinkedIn</title>
+  </head>
+  <div class="topbar">
+    <div class="lefttopbar">
+      <img src="https://s.yimg.com/fz/api/res/1.2/oPmnuoHGZwDmud64pDGAcQ--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI0MDtxPTgwO3c9MjQw/https://s.yimg.com/zb/imgv1/051c505f-dc29-3303-81b2-5828c6e3b2e2/t_500x300" alt="" class="logo" />
+      <div class="globalsearch_div">
+        <span class="material-symbols-outlined search icon"> search </span>
+        <input type="search" class="globalsearch" />
+      </div>
+    </div>
+
+    <div class="righttopbar">
+      <div class="navicondiv">
+        <span class="material-symbols-outlined navicon">home</span>
+        <label class="iconlabel" for="network">Home</label>
+      </div>
+      <div class="navicondiv">
+        <i id="network" class="material-symbols-outlined navicon"> group </i>
+        <label class="iconlabel" for="network">Network</label>
+      </div>
+      <div class="navicondiv">
+        <i id="job" class="material-symbols-outlined navicon"> work </i><label
+          class="iconlabel" for="job">Job</label>
+      </div>
+      <div class="navicondiv">
+        <i id="massage" class="material-symbols-outlined navicon"> forum </i><label
+          class="iconlabel"
+          for="massage">Message</label>
+      </div>
+      <div class="navicondiv">
+        <i id="notification" class="material-symbols-outlined navicon">notifications
+        </i>
+        <label class="iconlabel" for="notificatiobn">Notification</label>
+      </div>
+      <div class="navicondiv">
+        <i id="me" class="material-symbols-outlined"> person </i>
+        <label class="iconlabel" for="me">Me</label>
+      </div>
+      <div class="topbarend">
+        <div class="navicondiv">
+          <i id="work" class="material-symbols-outlined navicon"> apps </i>
+          <label class="iconlabel" for="Work">Work</label>
+        </div>
+        <a href="" class="topbartext">Try premium for <br />Free</a>
+      </div>
+    </div>
+  </div>
+  <!-- header endes .............     main body starts-->
+  <div class="mainbody">
+    <!--left  body  -->
+    <div class="leftbody">
+      <div class="banner">
+        <img src="images/while.png" class="bannerimg" alt="">
+      </div>
+      <div class="propicdiv">
+        <img class="propic" src="images/profile.jpg" alt="">
+      </div>
+      <div class="prodetails">
+        <h2>Irfan k</h2>
+        <p>Student at brototype, kinfra,
+          kakkancheri, brototype
+        </p>
+      </div>
+      <div class="alumini">
+        <a href="" class="material-symbols-outlined">person_add </a>
+        <p>Connection<br>
+          <span>Connect with alumini</span>
+        </p>
+      </div>
+      <div class="leftadd">
+        <label>Acces exclusice tools & insights</label>
+        <div class="try">
+          <label class="material-symbols-outlined square">crop_square
+          </label>
+          <label class="blue"> Try premium for free</label>
+        </div>
+      </div>
+
+      <div class="items">
+        <p class="tagtext">
+          <span class="material-symbols-outlined tag">bookmark</span>
+          My items
+        </p>
+      </div>
+      <div class="discover">
+        <div class="material-symbols-outlined plus">add</div>
+        <p>Groups</p>
+        <p>Events</p>
+        <p>Followed Hashtags</p>
+        <div class="more">
+          <h3>Discover more</h3>
+        </div>
+      </div>
+
+    </div>
+    <!-- left body ends............   feed body starts -->
+    <div class="feed">
+      <!-- new post section starts -->
+      <div class="newpost">
+        <div><img src="images/profile.jpg" alt="" class="newpostimage">
+          <button class="newpostbutton">Ask your network for advice</button>
+        </div>
+        <!-- new post buttons -->
+        <div class="newpost_subBtns">
+          <button class="photo subbtn">
+            <span id="photo" class="material-symbols-outlined">
+              panorama
+            </span><label for="photo">Photo</label>
+          </button>
+          <button class="video subbtn">
+            <span id="video" class="material-symbols-outlined">
+              smart_display
+            </span><label for="video">Video</label>
+          </button>
+          <button class="event subbtn">
+            <span id="event" class="material-symbols-outlined">
+              calendar_month
+            </span><label for="event">Event</label>
+          </button>
+          <button class="article subbtn">
+            <span id="article" class="material-symbols-outlined">
+              vertical_split
+            </span><label for="article">Write Article</label>
+          </button>
+        </div>
+        <!-- new post ends -->
+        <div class="hrdiv">
+          <hr>
+          <label class="sortby" for="sort">Sort by:</label>
+          <select class="sort" name="sort" id="sort">
+            <option class="option" value="top">Top</option>
+            <option class="option" value="recent">Recent</option>
+          </select>
+        </div>
+
+      </div>
+      <!-- new post section ends -->
+      <!-- exploration section starts -->
+      <div class="post">
+        <div class="post_head">
+          <div class="post_propic">
+            <img
+              src="images/cvb.jpg"
+              alt="">
+          </div>
+          <div class="postpro">
+            <p class="Pname">Swiggy</p>
+            <p class="Pdetails">1066014 Followers</p>
+            <p3>3d . </p3><span class="material-symbols-outlined">
+              public
+            </span>
+          </div>
+          <button class="option">
+            <span class="material-symbols-outlined">
+              more_horiz
+            </span></button>
+          <div class="discr">
+            <p>The AVP of Product Management: Food (B2C) will lead and execute
+              strategies to evolve Swiggy's food
+              businesses; while catering to our consumers' needs, along with
+              those of our restaurant and delivery
+              partners.</p>
+          </div>
+        </div>
+        <div class="postbody">
+          <img src="images/swigy.gif" alt="">
+          <div class="counts">
+            <span class="material-symbols-outlined love">
+              favorite
+            </span>
+            <p>450</p>
+            <i class="cmtc">650 Comments</i>
+          </div>
+          <hr class="uline">
+          <div class="likebar">
+            <label for="like"> <span id="like"
+                class="material-symbols-outlined">
+                thumb_up
+              </span>Like</label>
+
+            <label for="comment"><span id="comment"
+                class="material-symbols-rounded">
+                chat
+              </span>Comment</label>
+
+            <label for="share"><span id="share"
+                class="material-symbols-rounded">
+                google_plus_reshare
+              </span>Share</label>
+
+            <label for="send"> <span id="send" class="material-symbols-rounded">
+                send
+              </span>Send</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="recomment">
+        <div class="rectop">
+          <a> Recomment for you</a>
+          <button class="btn">
+            <span class="material-symbols-outlined">
+              more_horiz
+            </span></button>
+        </div>
+        <div class="recbody">
+          <div class="rec">
+            <button class="follow">+ Follow</button>
+            <span>
+              <img class="recproimg"
+                src="images/vipro.jpg"
+                alt="">
+              <p>Vipro</p>Technology, Information and Internet Moscow 5,310
+              followers</span>
+          </div>
+          <div class="rec">
+            <button class="follow">+ Follow</button>
+            <span>
+              <img class="recproimg"
+                src="images/tcs.jpg"
+                alt="">
+              <p>Tata Consultancy Services</p>IT Services and IT Consulting
+              Mumbai, Maharashtra 10,099,116 followers</span>
+          </div>
+          <div class="rec">
+            <button class="follow">+ Follow</button>
+            <span>
+              <img class="recproimg"
+                src="images/ms.jpg"
+                alt="">
+              <p>Microsoft</p>Software Development Redmond, Washington 17,362,154
+              followers</span>
+          </div>
+        </div>
+        <div class="recfoot">
+          Show more
+        </div>
+      </div>
+      <div class="post">
+        <div class="post_head">
+          <div class="post_propic">
+            <img
+              src="images/netflx.jpg"
+              alt="">
+          </div>
+          <div class="postpro">
+            <p class="Pname">Netflix</p>
+            <p class="Pdetails">908645 Followers</p>
+            <p3>6hr . </p3><span class="material-symbols-outlined">
+              public
+            </span>
+          </div>
+          <button class="option">
+            <span class="material-symbols-outlined">
+              more_horiz
+            </span></button>
+          <div class="discr">
+            <p>Nuestro equipo de ingeniería está creciendo y estamos contratando
+              en México. principal servicio de entretenimiento por streaming en
+              el mundo. Con una presencia que supera lo  móviles en una
+              variedad de géneros e idiomas.</p>
+          </div>
+        </div>
+        <div class="postbody">
+          <img
+            src="images/1658348260603.png"
+            alt="">
+          <div class="counts">
+            <span class="material-symbols-outlined love">
+              favorite
+            </span>
+            <p>4170</p>
+            <i class="cmtc">650 Comments</i>
+          </div>
+          <hr class="uline">
+          <div class="likebar">
+            <label for="like"> <span id="like"
+                class="material-symbols-outlined">
+                thumb_up
+              </span>Like</label>
+
+            <label for="comment"><span id="comment"
+                class="material-symbols-rounded">
+                chat
+              </span>Comment</label>
+
+            <label for="share"><span id="share"
+                class="material-symbols-rounded">
+                google_plus_reshare
+              </span>Share</label>
+
+            <label for="send"> <span id="send" class="material-symbols-rounded">
+                send
+              </span>Send</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- feed body ends .............right body starts-->
+    <div class="rightbody">
+      <div class="newsdiv">
+        <p>LinkedIn News</p>
+        <div class="news"><ul> <li>Ola invests $500M in Bengaluru</li>
+            1d ago . 478 readers</ul>
+        </div>
+        <div class="news"><ul> <li>New WFH rules at SEZs</li>
+            4h ago . 4034 readers</ul></div>
+        <div class="news"><ul> <li>Google freeze hiring for 2 weaks</li>
+            22h ago . 3998 readers</ul></div>
+        <div class="news"><ul> <li>Best countries for work abroad</li>
+            2d ago . 918 readers</ul></div>
+        <div class="news"><ul> <li>What CEO's of FMCGs earns</li>
+            1d ago . 4156 readers</ul></div>
+        <button class="newsbtn">Show more <span
+            class="material-symbols-outlined">
+            expand_more
+          </span></button>
+      </div>
+
+      <!-- right ads  begings -->
+      <div class="rightads">
+        <button a class="btn">
+          <span class="material-symbols-outlined btndots">
+            more_horiz
+          </span></button>
+        <p>Get the latest on jobs, news, and more</p>
+        <div class="Raddimg">
+          <img src="images/profile.jpg" alt="">
+          <img
+            src="images/aeamco.jpg"
+            alt="">
+        </div>
+        <p>Irfan, aramco is hiring!</p>
+        <button class="addflw">+ Follow</button>
+      </div>
+      <!-- right add ends -->
+      <!-- abot section -->
+      <div class="about">
+        <ul>
+          <li>About</li>
+          <li>Accessibility</li>
+          <li>Help Center</li>
+          <li>Ad choices</li>
+          <li>Advertising</li>
+          <li>Get the linked in app</li>
+          <li>More</li>
+          <li>Privacy & Terms<i class="material-symbols-outlined">
+              expand_more
+            </i></li>
+          <li>Buisness Servies<i class="material-symbols-outlined">
+              expand_more
+            </i></li>
+        </ul>
+        <div class="cpyrt"><p class="blue">Linked<p class="white">in</p>
+            <p>LinkedIn Corporation © 2022</p></div>
+          <!--  right body ends -->
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
